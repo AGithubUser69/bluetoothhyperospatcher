@@ -4,4 +4,4 @@ version=v1.0
 versionCode=1
 author=zen0dev
 description=fix bluetooth tws not working
-updateJson=https://github.com/AGithubUser69/bluetoothhyperospatcher/update.json
+#updateJson=https://github.com/AGithubUser69/bluetoothhyperospatcher/update.json
