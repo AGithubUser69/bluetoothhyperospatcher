@@ -16,7 +16,7 @@
 #MAXAPI=25
 #DYNLIB=true
 #PARTOVER=true
-#PARTITIONS=""
+PARTITIONS="/system_ext"
 
 ##########################################################################################
 # Replace list
@@ -36,6 +36,27 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
+/system/lib/libbluetooth.so
+/system/lib64/libbluetooth.so
+/system/lib64/libbluetooth_qti_jni.so
+/system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+/system_ext/lib/libbluetooth_qti.so
+/system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
+/system_ext/lib64/libbluetooth_qti.so
+/vendor/lib/btaudio_offload_if.so
+/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+/vendor/lib/libbluetooth_audio_session.so
+/vendor/lib/libbluetooth_audio_session_qti.so
+/vendor/lib/libbluetooth_audio_session_qti_2_1.so
+/vendor/lib/libbt-hidlclient.so
+/vendor/lib/libbtnv.so
+/vendor/lib64/btaudio_offload_if.so
+/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
+/vendor/lib64/libbluetooth_audio_session.so
+/vendor/lib64/libbluetooth_audio_session_qti.so
+/vendor/lib64/libbluetooth_audio_session_qti_2_1.so
+/vendor/lib64/libbt-hidlclient.so
+/vendor/lib64/libbtnv.so
 "
 
 ##########################################################################################
